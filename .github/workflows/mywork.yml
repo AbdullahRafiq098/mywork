@@ -28,7 +28,7 @@ jobs:
           node-version: 12 
 
 
-      # Runs a set of commands using the runners shell
+      # Runs a set of commands using the runners shells
       - name: Installing surge
         run: npm install --global surge 
       - name : deploying using surge --token 
